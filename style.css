@@ -1,0 +1,36 @@
+/* utilities */
+.btn-whiteblue {
+  border-color: #006aff;
+  color: #006aff;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  line-height: 50px;
+  background: #fff;
+}
+
+.navbar-default .navbar-brand {
+  width: 120%;
+}
+
+.navbar-left {
+  padding-left: 100px;
+}
+
+.navbar-nav li a i {
+  padding-left: 3px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #031b4e;
+}
+
+.navbar-left li i,
+.navbar-right li i {
+  color: #031b4e;
+}
