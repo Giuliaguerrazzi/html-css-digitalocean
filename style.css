@@ -15,6 +15,10 @@ body {
   color: #fff;
 }
 
+.mt-50 {
+  margin-top: 50px;
+}
+
 /* Typo */
 .text-white {
   color: #fff;
@@ -103,6 +107,7 @@ margin: 0;
   border-radius: 5px;
   margin-bottom: 5px;
   padding: 5px 0;
+  border-style: none;
 }
 
 .btn-grey {
@@ -114,6 +119,8 @@ margin: 0;
   margin-top: 5px;
   margin-bottom: 10px;
   padding: 5px 0;
+  border-style: none;
+  box-shadow: 2px 2px 2px;
 }
 
 .btn-grey img {
@@ -140,9 +147,12 @@ margin: 0;
 }
 
 /* Partner */
+.partner{
+  background-color: #f3f5f9;
+}
+
 .partner {
   background: #f3f5f9;
-  position: relative;
 }
 
 .partner p {
@@ -166,4 +176,85 @@ margin: 0;
   top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+
+/* Phone */
+@media screen and (max-width: 768px) {
+  .loghi img {
+    margin: auto;
+  }
+}
+
+/* Deploy */
+.deploy {
+  background: #fff;
+  margin-bottom: 50px;
+}
+
+.row-up h3 {
+  margin-top: 60px;
+  font-weight: 700;
+  font-size: 30px;
+  color: black;
+}
+
+.row-up p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #5b6987;
+}
+
+.deploy-list {
+  border-left: 2px solid #e5e8ed;
+  margin-top: 50px;
+}
+
+.deploy-list li {
+padding: 10px;
+}
+
+.deploy-info {
+  margin-top: 50px;
+  line-height: 20px;
+}
+
+.deploy-info img {
+  margin-bottom: 10px;
+}
+
+.deploy-info h4 {
+  color: black;
+}
+
+.deploy-info p {
+  color:#5b6987;
+  margin-bottom: 30px;
+}
+
+.deploy-info .globe {
+  margin-top: 50px;
+
+}
+
+.deploy-info li {
+  list-style: none;
+}
+
+/* Phone */
+@media screen and (max-width: 768px) {
+  .deploy-list {
+    margin-left: 10px;
+  }
+
+  .deploy-info,
+  .deploy-info .globe {
+  margin-top: 10px;
+}
+
+  .deploy-info p {
+   margin-bottom: 10px;
+ }
+
+
 }
