@@ -19,6 +19,10 @@ body {
   margin-top: 50px;
 }
 
+.mb-50 {
+  margin-bottom: 50px;
+}
+
 /* Typo */
 .text-white {
   color: #fff;
@@ -28,10 +32,6 @@ body {
   color: #006aff;
 }
 
-.p-grey {
-  font-size: 18px;
-  color: lightgrey;
-}
 
 /* Header */
 .navbar {
@@ -79,6 +79,11 @@ margin: 0;
 
 .jumbotron .create-account h3 {
   font-size: 25px;
+}
+
+.jumbotron p {
+  font-size: 18px;
+  color: lightgrey;
 }
 
 .jumbotron .create-account h3:first-child {
@@ -269,14 +274,14 @@ padding: 10px;
 .slide .fa-chevron-left {
   font-size: 25px;
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 23%;
 }
 
 .slide .fa-chevron-right {
   font-size: 25px;
   position: absolute;
-  top: 50%;
+  top: 35%;
   right: 23%;
 }
 
@@ -316,4 +321,38 @@ padding: 10px;
 
 .business .info p {
   margin-bottom: 15px;
+}
+
+/* service world */
+.world {
+  background-color: #00009f;
+}
+
+.world h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.col-pad {
+  padding: 0 40px;
+}
+
+.row-white {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  margin: 6px 0;
+}
+
+.p-grey {
+  color: lightgrey;
+}
+
+.world a {
+  color: #00d7d2;
+}
+
+@media screen and (max-width: 768px) {
+  .col-2 {
+    margin-top: 40px;
+  }
 }
