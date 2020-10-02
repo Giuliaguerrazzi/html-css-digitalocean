@@ -213,30 +213,30 @@ margin: 0;
 padding: 10px;
 }
 
-.deploy-info {
+.info {
   margin-top: 50px;
   line-height: 20px;
 }
 
-.deploy-info img {
+.info img {
   margin-bottom: 10px;
 }
 
-.deploy-info h4 {
+.info h4 {
   color: black;
 }
 
-.deploy-info p {
+.info p {
   color:#5b6987;
   margin-bottom: 30px;
 }
 
-.deploy-info .globe {
+.info .globe {
   margin-top: 50px;
 
 }
 
-.deploy-info li {
+.info li {
   list-style: none;
 }
 
@@ -246,19 +246,18 @@ padding: 10px;
     margin-left: 10px;
   }
 
-  .deploy-info,
-  .deploy-info .globe {
+  .info,
+  .info .globe {
   margin-top: 10px;
 }
 
-  .deploy-info p {
+  .info p {
    margin-bottom: 10px;
  }
 }
 
 /* design */
 .design {
-  margin-bottom: 50px;
   background: #f3f5f9;
 }
 
@@ -308,4 +307,13 @@ padding: 10px;
   .slide p {
   margin-bottom:60px;
  }
+}
+
+/* business */
+.business {
+  margin-bottom: 60px;
+}
+
+.business .info p {
+  margin-bottom: 15px;
 }
