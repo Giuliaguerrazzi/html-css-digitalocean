@@ -351,8 +351,89 @@ padding: 10px;
   color: #00d7d2;
 }
 
+/* phone */
 @media screen and (max-width: 768px) {
   .col-2 {
     margin-top: 40px;
   }
+}
+
+/* Development */
+.rockerbox {
+  background: #fff;
+  height: 300px;
+  width: 45%;
+  margin: 0 auto;
+}
+
+.box {
+  padding: 50px 0;
+}
+
+.rockerbox img {
+  width: 50%;
+}
+
+.slide .rockerbox .box p {
+  font-weight: 400;
+  font-size: 18px;
+  padding: 0 5px;
+}
+
+.rockerbox .box h5 {
+  margin-bottom: 0;
+}
+
+.rockerbox .box h6 {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.rockerbox .box a {
+  margin-bottom: 20px;
+}
+
+
+/* Get started */
+.started {
+  background: #00009f;
+  height: 200px;
+}
+
+.started h3 {
+  color: #fff;
+}
+
+.btn-started {
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 15px;
+  border: 0;
+}
+
+/* footer */
+footer {
+  background: #11114a;
+}
+
+footer i {
+  font-size: 20px;
+}
+
+footer p {
+  margin: 0;
+  padding: 13px 0;
+}
+
+footer i {
+  padding: 5px 5px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  line-height: 25px;
 }
