@@ -505,6 +505,20 @@ footer li {
   top: 9px;
 }
 
+.help .shark span {
+  position: absolute;
+  background: red;
+  color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 23px;
+  border: 4px solid #fff;
+  top: -13px;
+  left: 40px;
+}
+
 .help .shark img {
   width: 55px;
   height: 50px;
