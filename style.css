@@ -69,16 +69,16 @@ body {
 }
 
 /* Phone */
-/* @media screen and (max-width: 768px)
+ @media screen and (max-width: 768px)
 { .digital-icon {
   padding: 10px 15px;
  }
-}*/
+}
 
 @media screen and (min-width: 768px) and (max-width: 991px)
- {/* .digital-icon {
+ { .digital-icon {
   padding: 10px 15px;
- } */
+ }
 
   .container {
     position: relative;
@@ -201,23 +201,29 @@ margin: 0;
   padding: 0;
 }
 
+.partner-logo li {
+  display: inline-block;
+  width: calc((100%/6) - 12px)
+}
+
 .partner-logo img {
-  max-width: 100%;
-  transform: translatey(-50%);
-  margin-top: 60px;
-  padding: 10px;
+  width: 100%;
+  padding: 5px;
 }
 
 /* Phone */
 @media screen and (max-width: 768px) {
-  .loghi img {
-    margin: auto;
+  .partner-logo li {
+    display: inline-block;
+    width: calc((100%/2) - 12px);
   }
 
   .partner-logo img {
-    padding: 22px;
+    width: 90%;
   }
 }
+
+
 /* Deploy */
 .deploy {
   background: #fff;
@@ -293,6 +299,7 @@ padding: 10px;
     margin-top: 70px;
   }
 }
+
 
 /* design */
 .design {
@@ -473,13 +480,18 @@ footer li {
 .help {
   position: fixed;
   bottom: 0;
-  right: 0;
+  right: 20px;
+}
+
+.help::after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .help .balloon p {
   background: #fff;
   padding: 10px;
-  width: 70%;
   border-radius: 5px;
   margin-bottom: 15px;
 }
@@ -487,9 +499,9 @@ footer li {
 .help .balloon::before {
   content:'';
   position: absolute;
-  bottom: 10px;
-  right: 116px;
-  width:8px;
+  bottom: 25px;
+  right: -4px;
+  width: 8px;
   height: 8px;
   background: #fff;
   transform: rotate(45deg);
@@ -497,12 +509,14 @@ footer li {
 
 .help .balloon {
   position: relative;
+  float: left;
+  width: 285px;
+  margin-right: 10px;
 }
 
 .help .shark {
-  position: absolute;
-  right: 50px;
-  top: 9px;
+  float: left;
+  position: relative;
 }
 
 .help .shark span {
@@ -524,4 +538,12 @@ footer li {
   height: 50px;
   background: #176ec4;
   border-radius: 5px;
+}
+
+
+ @media screen and (max-width: 768px) {
+  .help {
+    bottom: 0;
+    left: 20px;
+  }
 }
