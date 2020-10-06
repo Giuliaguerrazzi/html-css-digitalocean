@@ -68,11 +68,6 @@ body {
   padding: 0;
 }
 
-.navbar-left .fa-angle-down,
-.navbar-right .fa-angle-down {
-  padding-top: 5px;
-}
-
 /* Phone */
  @media screen and (max-width: 768px)
 { .digital-icon {
