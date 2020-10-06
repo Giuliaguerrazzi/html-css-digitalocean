@@ -46,7 +46,7 @@ body {
   padding-left: 100px;
 }
 
-.navbar-nav li a i {
+.navbar-nav li a i{
   padding-left: 3px;
   font-size: 15px;
 }
@@ -66,6 +66,11 @@ body {
 
 .digital-icon {
   padding: 0;
+}
+
+.navbar-left .fa-angle-down,
+.navbar-right .fa-angle-down {
+  padding-top: 5px;
 }
 
 /* Phone */
@@ -540,10 +545,10 @@ footer li {
   border-radius: 5px;
 }
 
-
- @media screen and (max-width: 768px) {
-  .help {
-    bottom: 0;
-    left: 20px;
-  }
+/* tablet */
+@media screen and (max-width: 991px) {
+ .help {
+   bottom: 0;
+   left: 20px;
+ }
 }
